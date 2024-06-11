@@ -1,4 +1,4 @@
-FROM node:20.13.1
+FROM node:20.13.1-bookworm-slim
 
 RUN npm install -g npm@10.8.1
 
